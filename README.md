@@ -1,3 +1,10 @@
+# Setup ZooKeeper
+
+- Download ZooKeeper: https://zookeeper.apache.org/releases.html
+- Download Java runtime: https://formulae.brew.sh/formula/openjdk@17
+- Run ZooKeeper: `bin/zkServer.sh start`
+- Connect to ZooKeeper: `bin/zkCli.sh -server 127.0.0.1:2181`
+
 # Reference
 
 - [MIT 6.824: Distributed Systems - Lecture 8: Zookeeper](https://www.youtube.com/watch?v=pbmyrNjzdDk)
